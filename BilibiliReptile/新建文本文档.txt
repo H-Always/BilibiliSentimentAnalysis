@@ -1,0 +1,60 @@
+    url = "https://totalhash.cymru.com/analysis/?1ce201cf28c6dd738fd4e65da55242822111bd9f"
+    htmlContent = requests.get(url, verify=False)
+    data = htmlContent.text
+    print("data", data)
+    jsonD = json.dumps(htmlContent.text)
+    jsonL = json.loads(jsonD)
+    
+    ContentUrl='{ \"url\" : \"'+str(urls)+'\" ,'+"\n"+' \"uid\" : \"'+str(uniqueID)+'\" ,\n\"page_content\" : \"'+jsonL+'\" , \n\"date\" : \"'+finalDate+'\"}'
+      
+       https://www.bilibili.com/bangumi/play/ep339896
+
+
+
+
+
+https://api.bilibili.com/x/v2/reply?callback=jQuery17208926419617099477_1611924599764&jsonp=jsonp&pn=1&type=1&oid=329827456&sort=2&_=1611924601923
+
+https://api.bilibili.com/x/v2/reply?callback=jQuery1720506984872348565_1611924643478&jsonp=jsonp&pn=1&type=1&oid=245631765&sort=2&_=1611924647220
+
+
+
+
+
+
+
+https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid=458831917&sort=2&_=1612873733379
+
+
+
+
+
+
+
+
+
+https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid=969664445&sort=2
+
+
+https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid=801110238&sort=2
+BV18y4y1v7BU
+
+
+https://api.bilibili.com/x/v2/reply?pn=1&type=1&oid=928691978&sort=2&_=1614154899436
+BV1uT4y1K7yL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

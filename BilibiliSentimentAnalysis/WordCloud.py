@@ -17,12 +17,12 @@ import matplotlib.pyplot as plt
 
 def word_cloud(words):
     if not os.path.exists("Resources/word_cloud_教你如何装一台超级工作站：无敌是多么寂寞.txt"):
-        with open("Resources/word_cloud_教你如何装一台超级工作站：无敌是多么寂寞.txt", 'w',encoding='UTF-8') as file:
+        with open("Resources/word_cloud_教你如何装一台超级工作站：无敌是多么寂寞.txt", 'w', encoding='UTF-8') as file:
             for word in words:
                 for i in word:
                     file.write(str(i) + ' ')
 
-    with open("Resources/word_cloud_教你如何装一台超级工作站：无敌是多么寂寞.txt", "r",encoding='UTF-8') as file:
+    with open("Resources/word_cloud_教你如何装一台超级工作站：无敌是多么寂寞.txt", "r", encoding='UTF-8') as file:
         txt = file.read()
 
     mask = np.array(image.open("Resources/python_word_cloud_image.png"))

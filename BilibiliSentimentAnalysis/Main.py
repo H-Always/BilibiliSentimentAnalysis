@@ -1,4 +1,3 @@
-from collections import defaultdict
 from numpy import *
 import xlrd
 import CutData

@@ -48,7 +48,6 @@ def get_title(titleUrl):
 # 首先我们写好抓取网页的函数
 def get_html(url):
      # 爬虫模拟访问信息
-
     r = requests.get(url, timeout=30, headers=get_headers())
     r.raise_for_status()
     r.endcodding = 'utf-8'
@@ -152,6 +151,7 @@ if __name__ == '__main__':
     bv = 'BV1uT4y1K7yL'
     # 将网页上获取的url复制到这里，注意，从开发者那里获取到的参数不能直接使用，要删减一下，否则会触发反爬虫机制
     oid = '92186919718'
+
     commentsUrl = "&type=1&oid="+str(oid)+"&sort=2"
     titleUrl = 'https://www.bilibili.com/'+bv
     tittle = get_title(titleUrl)
